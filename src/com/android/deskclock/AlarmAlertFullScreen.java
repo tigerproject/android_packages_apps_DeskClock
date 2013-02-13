@@ -424,7 +424,7 @@ public class AlarmAlertFullScreen extends Activity implements GlowPadView.OnTrig
                 snooze();
                 break;
             case ALARM_DISMISS:
-                dismiss(false);
+                dismiss(false, false);
                 break;
             case ALARM_NO_ACTION:
             default:
